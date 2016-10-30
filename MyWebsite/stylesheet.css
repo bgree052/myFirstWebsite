@@ -1,0 +1,45 @@
+li{
+  display: inline;
+  margin-right: 15;
+  font-size: 22;
+}
+a{
+  color: white;
+}
+
+.title{
+  font-family: "Franklin Gothic Medium" sans-serif;
+  font-size: 45;
+  position: relative;
+  margin-left: 40;
+}
+
+#navbarBackground{
+  background-color: #000099;
+}
+
+.leftmargin{
+  margin-left: 30;
+}
+
+.firstpara{
+  font-size: 20;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.textlink{
+  color: blue;
+}
+
+.topbreak{
+  margin-top: 10px;
+}
+.bottombreak{
+  margin-bottom: 20px;
+}
+
+.thumbnail{
+}
