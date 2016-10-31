@@ -11,7 +11,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="">About Me</a></li>
           <li><a href="cats.html">Images of My Cats</a></li>
-          <li><a href="">Change the Website!</a></li>
+          <li><a href="change.html">Change the Website!</a></li>
     </div>
     <h1 class="title bottombreak">Here are the Cats!</h1>
   </head>
@@ -36,10 +36,10 @@
 and replaces the arrtibute of 'source' with that of the source attribute from what
 you clicked on, which is (this)-->
 <script>
-$(".thumbnail").click(function(){
-  $(".enlarged").attr('src',
-    $(this).attr('src'));
-});
+  $(".thumbnail").click(function(){
+    $(".enlarged").attr('src',
+      $(this).attr('src'));
+  });
 </script>
 
 
