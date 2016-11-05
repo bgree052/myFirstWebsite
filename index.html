@@ -2,35 +2,121 @@
   <head>
     <link rel="stylesheet" href="bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
 <div id="navbarBackground">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="">About Me</a></li>
       <li><a href="cats.html">Images of My Cats</a></li>
-      <li><a href="change.html">Change the Website!</a></li>
 </div>
     <h1 class="title">Welcome to the Webpage all about ME!</h1>
 
     <title>Ben's Webpage Home</title>
   </head>
 
-  <body>
+<body>
     </br>
-    <div class="row leftmargin">
-      <div class="col-md-4">
-        <p class="firstpara">
-          Hello and welcome to my: <span class="bold">"Totally not pointless and not for marks webpage about me!"</span> </br>
-          This website will tell you all you need to know about the man known as Ben Greene, as well as pictures of his cats for some reason.
-        </p>
+    <div class="conatiner border">
+      <div class="row leftmargin border">
+        <div class="col-md-6 border">
+          <p class="firstpara">
+            Hello and welcome to my: <span class="bold">"Totally not pointless and not for marks webpage about me!"</span> </br>
+            This website will tell you all you need to know about the man known as Ben Greene, as well as pictures of his cats for some reason.
+          </p>
+        </div>
+      </div>
+
+      <div class="row leftmargin border">
+        <div class="col-md-6 border">
+          <p class="firstpara"> If you wish to actually do something worthwhile with your time I suggest checking out such web pages as <a class="textlink" href="https://www.youtube.com/">YouTube</a> where you can browse billions of videos, or you could go to <a class="textlink" href="http://www.gold.ac.uk/">The Goldsmiths Website</a> and find out about some of the best courses available in Britain!
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="row leftmargin">
-      <div class="col-md-4">
-        <p class="firstpara"> If you wish to actually do something worthwhile with your time I suggest checking out such web pages as <a class="textlink" href="https://www.youtube.com/">YouTube</a> where you can browse billions of videos, or you could go to <a class="textlink" href="http://www.gold.ac.uk/">The Goldsmiths Website!</a> and find out about some of the best courses available in Britain!
-        </p>
-      </div>
+
+
+
+  <div class="container footer border" id="footerBackground">
+
+      <div class="row border visibleBorder">
+
+        <div class="col-md-2 border">
+          <h2 class="footerText leftmargin">Change the Background Colour with these buttons:</h2>
+        </div>
+
+        <div class="col-md-2 border topImages">
+        <ul>
+          <li><img id="backgroundBlack" src="assets/black.png" style="width:relative; height:7%;"></li>
+          <li><img id="backgroundPurple" src="assets/purple.png" style="width:relative; height:7%;"></li>
+        </ul>
+          <div class="row border">
+            <div class="col-md-12 border">
+                <ul>
+                <li><img id="backgroundGrey" src="assets/grey.png"  style="width:relative; height:7%;"></li>
+                <li><img id="backgroundWhite" src="assets/white.png" style="width:relative; height:7%;"></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+
+            <div class="col-md-1 border"></div>
+
+
+          <div class="col-md-2 border">
+            <h2 class="footerText leftmargin">Change the Font Colour with these buttons:</h2>
+          </div>
+              <div class="col-md-2 border topImages">
+                <ul>
+                  <li><img id="textBlack" src="assets/black.png" style="width:relative; height:7%;"></li>
+                  <li><img id="textRed" src="assets/red.png" style="width:relative; height:7%;"></li>
+                </ul>
+                  <div class="row border">
+                    <div class="col-md-12 border">
+                      <ul>
+                        <li><img id="textGreen" src="assets/green.png"  style="width:relative; height:7%;"></li>
+                        <li><img id="textWhite" src="assets/white.png" style="width:relative; height:7%;"></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
     </div>
+    </div>
+
+
+  <script>
+    $("#backgroundBlack").click(function(){
+      $("body").css("background-color", "black");
+    });
+    $("#backgroundPurple").click(function(){
+      $("body").css("background-color", "purple");
+    });
+    $("#backgroundGrey").click(function(){
+      $("body").css("background-color", "grey");
+    });
+    $("#backgroundWhite").click(function(){
+      $("body").css("background-color", "white");
+    });
+
+    $("#textBlack").click(function(){
+      $("body").css("color", "black");
+    });
+    $("#textRed").click(function(){
+      $("body").css("color", "red");
+    });
+    $("#textGreen").click(function(){
+      $("body").css("color", "green");
+    });
+    $("#textWhite").click(function(){
+      $("body").css("color", "white");
+    });
+  </script>
+
+
+
   </body>
 
 </html>

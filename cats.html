@@ -11,24 +11,22 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="">About Me</a></li>
           <li><a href="cats.html">Images of My Cats</a></li>
-          <li><a href="change.html">Change the Website!</a></li>
     </div>
     <h1 class="title bottombreak">Here are the Cats!</h1>
   </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="leftmargin col-md-2 border">
+  <div class="leftmargin container-fluid border">
+    <div class="row border">
+      <div class="col-md-2 border">
         <img class="thumbnail" src="assets/IMG_0176.JPG" style="width:100%; height:relative;">
         <img class="topbreak thumbnail" src="assets/IMG_1504.JPG" style="width:100%; height:relative;">
         <img class="topbreak thumbnail" src="assets/IMG_2082.JPG" style="width:100%; height:relative;">
       </div>
-      <!-- <div class="col-md-1"></div> -->
       <div class="col-md-7 border">
         <img class="enlarged" src="assets/IMG_0176.JPG" style="width:80%; height:relative;">
       </div>
-      <!-- <div class="col-md-2 border"></div> -->
+        <!-- <div class="col-md-3"></div> -->
     </div>
   </div>
 
@@ -41,6 +39,87 @@ you clicked on, which is (this)-->
       $(this).attr('src'));
   });
 </script>
+
+
+
+
+  <div class="container footer border" id="footerBackground">
+
+      <div class="row border visibleBorder">
+
+        <div class="col-md-2 border">
+          <h2 class="footerText leftmargin">Change the Background Colour with these buttons:</h2>
+        </div>
+
+        <div class="col-md-2 border topImages">
+        <ul>
+          <li><img id="backgroundBlack" src="assets/black.png" style="width:relative; height:7%;"></li>
+          <li><img id="backgroundPurple" src="assets/purple.png" style="width:relative; height:7%;"></li>
+        </ul>
+          <div class="row border">
+            <div class="col-md-12 border">
+                <ul>
+                <li><img id="backgroundGrey" src="assets/grey.png"  style="width:relative; height:7%;"></li>
+                <li><img id="backgroundWhite" src="assets/white.png" style="width:relative; height:7%;"></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+
+            <div class="col-md-1 border"></div>
+
+
+          <div class="col-md-2 border">
+            <h2 class="footerText leftmargin">Change the Font Colour with these buttons:</h2>
+          </div>
+              <div class="col-md-2 border topImages">
+                <ul>
+                  <li><img id="textBlack" src="assets/black.png" style="width:relative; height:7%;"></li>
+                  <li><img id="textRed" src="assets/red.png" style="width:relative; height:7%;"></li>
+                </ul>
+                  <div class="row border">
+                    <div class="col-md-12 border">
+                      <ul>
+                        <li><img id="textGreen" src="assets/green.png"  style="width:relative; height:7%;"></li>
+                        <li><img id="textWhite" src="assets/white.png" style="width:relative; height:7%;"></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+    </div>
+    </div>
+
+
+  <script>
+    $("#backgroundBlack").click(function(){
+      $("body").css("background-color", "black");
+    });
+    $("#backgroundPurple").click(function(){
+      $("body").css("background-color", "purple");
+    });
+    $("#backgroundGrey").click(function(){
+      $("body").css("background-color", "grey");
+    });
+    $("#backgroundWhite").click(function(){
+      $("body").css("background-color", "white");
+    });
+
+    $("#textBlack").click(function(){
+      $("body").css("color", "black");
+    });
+    $("#textRed").click(function(){
+      $("body").css("color", "red");
+    });
+    $("#textGreen").click(function(){
+      $("body").css("color", "green");
+    });
+    $("#textWhite").click(function(){
+      $("body").css("color", "white");
+    });
+  </script>
+
+
 
 
 </body>

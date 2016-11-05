@@ -2,15 +2,11 @@
   border: 1px solid black;
 }*/
 
-li{
-  display: inline;
-  margin-right: 15;
-  font-size: 22;
-}
-a{
-  color: white;
+.visibleBorder{
+  border: 2px solid black;
 }
 
+/*TEXT CSS*/
 .title{
   font-family: "Franklin Gothic Medium" sans-serif;
   font-size: 45;
@@ -18,24 +14,33 @@ a{
   margin-left: 40;
 }
 
-#navbarBackground{
-  background-color: #000099;
-}
-
-.leftmargin{
-  margin-left: 30;
-}
-
-.firstpara{
-  font-size: 20;
+.textlink{
+  color: blue;
 }
 
 .bold{
   font-weight: bold;
 }
 
-.textlink{
-  color: blue;
+.firstpara{
+  font-size: 20;
+}
+
+.footerText{
+  color:white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+
+/*Positions CSS*/
+.footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.leftmargin{
+  margin-left: 30;
 }
 
 .topbreak{
@@ -45,6 +50,50 @@ a{
   margin-bottom: 20px;
 }
 
+.topImages{
+  margin-top: 5px;
+}
+
+
+/*Image IDs*/
+#textBlack{
+}
+
+#textRed{
+}
+
+#textGreen{
+}
+
+#textWhite{
+}
+
+
+#backgroundBlack{
+}
+
+#backgroundPurple{
+}
+
+#backgroundGrey{
+}
+
+#backgroundWhite{
+}
+
+
+/*Master Tag CSS*/
+li{
+  display: inline;
+  margin-right: 15;
+  font-size: 22;
+}
+a{
+  color: white;
+}
+
+
+/*Other classes*/
 .thumbnail{
 }
 
@@ -52,6 +101,12 @@ a{
 
 }
 
-#backgroundBlack{
-  
+
+/*Other IDs*/
+#navbarBackground{
+  background-color: #000099;
+}
+
+#footerBackground{
+  background-color: #000099;
 }
