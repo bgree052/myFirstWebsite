@@ -1,5 +1,4 @@
 <html>
-
   <head>
     <link rel="stylesheet" href="bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
@@ -9,7 +8,7 @@
 <div id="navbarBackground">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="">About Me</a></li>
+      <li><a href="aboutMe.html">About Me</a></li>
       <li><a href="cats.html">Images of My Cats</a></li>
 </div>
     <h1 class="title">Welcome to the Webpage all about ME!</h1>
@@ -50,14 +49,14 @@
 
         <div class="col-md-2 border topImages">
         <ul>
-          <li><img id="backgroundBlack" src="assets/black.png" style="width:relative; height:7%;"></li>
-          <li><img id="backgroundPurple" src="assets/purple.png" style="width:relative; height:7%;"></li>
+          <li><img id="backgroundBlack" src="assets/black.png" class="clickSquare"></li>
+          <li><img id="backgroundPurple" src="assets/purple.png" class="clickSquare"></li>
         </ul>
           <div class="row border">
             <div class="col-md-12 border">
                 <ul>
-                <li><img id="backgroundGrey" src="assets/grey.png"  style="width:relative; height:7%;"></li>
-                <li><img id="backgroundWhite" src="assets/white.png" style="width:relative; height:7%;"></li>
+                <li><img id="backgroundGrey" src="assets/grey.png"  class="clickSquare"></li>
+                <li><img id="backgroundWhite" src="assets/white.png" class="clickSquare"></li>
                 </ul>
             </div>
           </div>
@@ -72,14 +71,14 @@
           </div>
               <div class="col-md-2 border topImages">
                 <ul>
-                  <li><img id="textBlack" src="assets/black.png" style="width:relative; height:7%;"></li>
-                  <li><img id="textRed" src="assets/red.png" style="width:relative; height:7%;"></li>
+                  <li><img id="textBlack" src="assets/black.png" class="clickSquare"></li>
+                  <li><img id="textRed" src="assets/red.png" class="clickSquare"></li>
                 </ul>
                   <div class="row border">
                     <div class="col-md-12 border">
                       <ul>
-                        <li><img id="textGreen" src="assets/green.png"  style="width:relative; height:7%;"></li>
-                        <li><img id="textWhite" src="assets/white.png" style="width:relative; height:7%;"></li>
+                        <li><img id="textGreen" src="assets/green.png"  class="clickSquare"></li>
+                        <li><img id="textWhite" src="assets/white.png" class="clickSquare"></li>
                       </ul>
                     </div>
                   </div>
@@ -88,8 +87,8 @@
     </div>
 
 
-<script>
-  jQuery(document).ready(function(){
+  <script>
+  $(document).ready(function(){
     $("#backgroundBlack").click(function(){
       $("body").css("background-color", "black");
     });

@@ -18,7 +18,6 @@
   color: blue;
 }
 
-
 .bold{
   font-weight: bold;
 }
@@ -100,6 +99,11 @@ a{
 
 .enlarged{
 
+}
+
+.clickSquare{
+  width:relative;
+  height:7%;
 }
 
 
