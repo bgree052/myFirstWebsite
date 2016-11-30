@@ -32,6 +32,10 @@
   font-size: 28px;
 }
 
+.buttonText{
+  color:white;
+  font-weight:12px;
+}
 
 /*Positions CSS*/
 .footer{
@@ -106,6 +110,9 @@ a{
   height:7%;
 }
 
+.buttonColour{
+  background-color: black;
+}
 
 /*Other IDs*/
 #navbarBackground{
