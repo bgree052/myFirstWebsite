@@ -32,6 +32,7 @@
   font-size: 28px;
 }
 
+
 .breadcrumbText{
   color: blue;
   font-size: 15px;
@@ -51,6 +52,12 @@
   margin-bottom: 15px;
   position: relative;
   bottom: 4px;
+}
+
+
+.buttonText{
+  color:white;
+  font-weight:12px;
 }
 
 
@@ -126,6 +133,14 @@ a{
 
 }
 
+.clickSquare{
+  width:relative;
+  height:7%;
+}
+
+.buttonColour{
+  background-color: black;
+}
 
 /*Other IDs*/
 /*#main_footer{

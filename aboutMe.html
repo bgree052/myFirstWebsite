@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/jquery.js"></script>
+
+<div id="navbarBackground">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutMe.html">About Me</a></li>
+      <li><a href="cats.html">Images of My Cats</a></li>
+</div>
+
+<h1 class="title bottombreak">This page is about me, what a surprise..</h1>
+
+</br>
+<div class="conatiner border">
+  <div class="row leftmargin border">
+    <div class="col-md-6 border">
+      <p class="firstpara">
+        Well this page is supposed to tell you all about me, so here we go.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <div class="container footer border" id="footerBackground">
+
+      <div class="row border visibleBorder">
+
+        <div class="col-md-2 border">
+          <h2 class="footerText leftmargin">Change the Background Colour with these buttons:</h2>
+        </div>
+
+        <div class="col-md-2 border topImages">
+        <ul>
+          <li><img id="backgroundBlack" src="assets/black.png" class="clickSquare"></li>
+          <li><img id="backgroundPurple" src="assets/purple.png" class="clickSquare"></li>
+        </ul>
+          <div class="row border">
+            <div class="col-md-12 border">
+                <ul>
+                <li><img id="backgroundGrey" src="assets/grey.png"  class="clickSquare"></li>
+                <li><img id="backgroundWhite" src="assets/white.png" class="clickSquare"></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+
+
+            <div class="col-md-1 border"></div>
+
+
+          <div class="col-md-2 border">
+            <h2 class="footerText leftmargin">Change the Font Colour with these buttons:</h2>
+          </div>
+              <div class="col-md-2 border topImages">
+                <ul>
+                  <li><img id="textBlack" src="assets/black.png" class="clickSquare"></li>
+                  <li><img id="textRed" src="assets/red.png" class="clickSquare"></li>
+                </ul>
+                  <div class="row border">
+                    <div class="col-md-12 border">
+                      <ul>
+                        <li><img id="textGreen" src="assets/green.png"  class="clickSquare"></li>
+                        <li><img id="textWhite" src="assets/white.png" class="clickSquare"></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+    </div>
+    </div>
+
+
+  <script>
+    $("#backgroundBlack").click(function(){
+      $("body").css("background-color", "black");
+    });
+    $("#backgroundPurple").click(function(){
+      $("body").css("background-color", "purple");
+    });
+    $("#backgroundGrey").click(function(){
+      $("body").css("background-color", "grey");
+    });
+    $("#backgroundWhite").click(function(){
+      $("body").css("background-color", "white");
+    });
+
+    $("#textBlack").click(function(){
+      $("body").css("color", "black");
+    });
+    $("#textRed").click(function(){
+      $("body").css("color", "red");
+    });
+    $("#textGreen").click(function(){
+      $("body").css("color", "green");
+    });
+    $("#textWhite").click(function(){
+      $("body").css("color", "white");
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
