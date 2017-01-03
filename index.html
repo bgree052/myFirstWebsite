@@ -8,9 +8,16 @@
 <div id="navbarBackground">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="">About Me</a></li>
+      <li><a href="data.html">The Data Page</a></li>
       <li><a href="cats.html">Images of My Cats</a></li>
 </div>
+
+  <ol class="breadcrumb">
+    <div class="floatLeft"><p class="breadcrumbTitle leftmargin ">Your Directory:</p></div>
+    <li class=""><a class="breadcrumbText leftmargin " href="index.html">Home</a></li>
+  </ol>
+
+
     <h1 class="title">Welcome to the Webpage all about ME!</h1>
 
     <title>Ben's Webpage Home</title>
@@ -39,9 +46,23 @@
 
 
 
-  <div class="container footer border" id="footerBackground">
+<nav class="navbar navbar-default">
+  <div class="container-fluid footer border" id="footerBackground">
 
-      <div class="row border visibleBorder">
+    <!--Start of Collapsed Footer-->
+    <div class="navbar-header">
+    <button
+    type="button"
+    class="navbar-toggle collapsed"
+    data-toggle="collapse"
+    data-target="#main_footer"
+    aria-expanded="false"
+    >
+    Open Page Options</button>
+    </div>
+    <!--End of collapse navbar-->
+
+    <div class="collapse navbar-collapse row border visibleBorder" id="main_footer">
 
         <div class="col-md-2 border">
           <h2 class="footerText leftmargin">Change the Background Colour with these buttons:</h2>
@@ -85,6 +106,7 @@
               </div>
     </div>
     </div>
+  </nav>
 
 
   <script>

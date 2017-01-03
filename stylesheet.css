@@ -32,6 +32,27 @@
   font-size: 28px;
 }
 
+.breadcrumbText{
+  color: blue;
+  font-size: 15px;
+  position: relative;
+}
+
+.breadcrumbText2{
+  color: blue;
+  font-size: 15px;
+  position: relative;
+  bottom: 5px;
+}
+
+.breadcrumbTitle{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+  position: relative;
+  bottom: 4px;
+}
+
 
 /*Positions CSS*/
 .footer{
@@ -52,6 +73,10 @@
 
 .topImages{
   margin-top: 5px;
+}
+
+.floatLeft{
+  float: left;
 }
 
 
@@ -103,6 +128,10 @@ a{
 
 
 /*Other IDs*/
+/*#main_footer{
+
+}*/
+
 #navbarBackground{
   background-color: #000099;
 }
