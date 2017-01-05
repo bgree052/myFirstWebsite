@@ -9,9 +9,9 @@
 /*TEXT CSS*/
 .title{
   font-family: "Franklin Gothic Medium" sans-serif;
-  font-size: 45;
+  font-size: 45px;
   position: relative;
-  margin-left: 40;
+  margin-left: 40px;
 }
 
 .textlink{
@@ -23,7 +23,7 @@
 }
 
 .firstpara{
-  font-size: 20;
+  font-size: 20px;
 }
 
 .footerText{
@@ -68,7 +68,7 @@
   width: 100%;
 }
 .leftmargin{
-  margin-left: 30;
+  margin-left: 30px;
 }
 
 .topbreak{
@@ -117,8 +117,8 @@
 /*Master Tag CSS*/
 li{
   display: inline;
-  margin-right: 15;
-  font-size: 22;
+  margin-right: 15px;
+  font-size: 22px;
 }
 a{
   color: white;
