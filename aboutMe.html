@@ -3,56 +3,33 @@
     <link rel="stylesheet" href="bootstrap.css" type="text/css"/>
     <link rel="stylesheet" href="stylesheet.css" type="text/css"/>
 
-    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/jquery.js"></script>
 
-    <title> Cats! </title>
-    <div id="navbarBackground">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutMe.html">About Me</a></li>
-          <li><a href="cats.html">Images of My Cats</a></li>
-    </div>
+<div id="navbarBackground">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutMe.html">About Me</a></li>
+      <li><a href="cats.html">Images of My Cats</a></li>
+</div>
 
-    <ol class="breadcrumb">
-      <div class="floatLeft"><p class="breadcrumbTitle leftmargin ">Your Directory:</p></div>
-      <li><a class="breadcrumbText2 leftmargin " href="index.html">Home</a></li>
-      <li><a class="breadcrumbText2 leftmargin " href="cats.html">Images of My Cats</a></li>
-    </ol>
+<h1 class="title bottombreak">This page is about me, what a surprise..</h1>
 
-    <h1 class="title bottombreak">Here are the Cats!</h1>
-  </head>
-
-<body>
-  <div class="leftmargin container-fluid border">
-    <div class="row border">
-      <div class="col-md-2 border">
-
-        <div class="hovereffect">
-          <img class="img-responsive thumbnail" src="assets/IMG_0176.JPG" style="width:100%; height:relative;">
-          <div class="overlay">
-            <h2>Hover Test</h2>
-          </div>
-        </div>
-
-          <img class="topbreak thumbnail" src="assets/IMG_1504.JPG" style="width:100%; height:relative;">
-          <img class="topbreak thumbnail" src="assets/IMG_2082.JPG" style="width:100%; height:relative;">
-      </div>
-      <div class="col-md-7 border">
-        <img class="enlarged" src="assets/IMG_0176.JPG" style="width:80%; height:relative;">
-      </div>
-        <!-- <div class="col-md-3"></div> -->
+</br>
+<div class="conatiner border">
+  <div class="row leftmargin border">
+    <div class="col-md-6 border">
+      <p class="firstpara">
+        Well this page is supposed to tell you all about me, so here we go.
+      </p>
     </div>
   </div>
+</div>
 
-<!-- when you click on something with the class "thumbnail" then the function starts,
-and replaces the arrtibute of 'source' with that of the source attribute from what
-you clicked on, which is (this)-->
-<script>
-  $(".thumbnail").click(function(){
-    $(".enlarged").attr('src',
-      $(this).attr('src'));
-  });
-</script>
+
+
+
+
 
 
 
